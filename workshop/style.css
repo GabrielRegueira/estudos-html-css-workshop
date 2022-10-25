@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    }
+    
+    .title{
+    font-size:25px;
+    }
+    
+    header{
+    background-color:#48c5ce;
+    text-align: center;
+    color:white;
+    padding:10px;
+    }
+    
+    
+    .conteiner{
+        margin:auto;
+    max-width:1000px;
+    }
+    
+    
+    section{
+    padding:20px;
+    background-image: url(imagens/people.jpg);
+    overflow: hidden;
+    background-size: cover;
+    }
+    
+    .formconteiner{
+    max-width:230px;
+    background-color:#FFFFFFBB;
+    padding:20px;
+    float: right;
+    }
+    
+
+    h2{
+    font-size:16px;
+    }
+    .mb{
+    margin-bottom:15px;
+    }
+    
+    input,select{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    border:none;
+    margin-bottom:10px;
+    }
+    
+    input[type="submit"]{
+    color:white;
+    background-color:#48c5ce;
+    font-weight:bold;
+    }
+    
+    
+    .picture{
+    width:160px;
+    }
+    
+    .descripition{
+    color:white;
+    display:inline-block;
+    max-width:40%;
+    margin-left:40px;
+    text-align:left;
+    }
+    .descripition p,h3{
+    margin-bottom: 20px;
+    }
+    
+    footer{
+    background-color:#202121;
+    padding:40px;
+    text-align:center;
+    }
+    .descripition h3{
+    font-size:24px;
+    } 
+
+
+    #increva:hover{
+        cursor: pointer;
+        background-color: rgba(127, 255, 212, 0.601);
+        transition: 1s;
+        color: #202121;
+    }
+
+    .fo{
+        max-width: 920px;
+        margin: auto;
+        background-color:#969a9a4b;
+    }
+
+
+    .conteiner-footer{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        flex-wrap: wrap;
+    }
+
+    .infor-input h2{
+        margin-bottom: 10px;
+    }
+   
+
+    .infor-input button{
+        width: 100%;
+        padding: 10px;
+        background-color:#48c5ce;
+        border: none;
+    }
+
+    .infor-input button:hover{
+        background-color: #48c5ce6a;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .end a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+     }
+
+     .bi{
+        margin-top: 10px;
+        border-radius: 50%;
+        padding: 1px;
+        cursor: pointer;
+     }
+
+     .redes a{
+        text-decoration: none;
+        color: aliceblue;
+        
+        }
+
+
+        @media(max-width:411px){
+            .formconteiner{
+                max-width: 400px;
+               
+            }
+
+            .descripition{
+                max-width: 400px;
+                
+            }
+
+
+        }
+
+  
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
